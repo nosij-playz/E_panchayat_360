@@ -57,7 +57,7 @@ E PANCHYAT 360/
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/nosij-playz/e-panchayat-360.git
-   cd E panchayat 360
+   cd E_panchayat_360
    ```
 
 2. **Install Dependencies**:
