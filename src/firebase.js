@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDpZ3XJBEt16hagwI11CALsCh2jgO-Pk2o",
-  authDomain: "digital-e-gram-panchayat-4defc.firebaseapp.com",
-  projectId: "digital-e-gram-panchayat-4defc",
-  storageBucket: "digital-e-gram-panchayat-4defc.firebasestorage.app",
-  messagingSenderId: "349269940213",
-  appId: "1:349269940213:web:24a1bca3d9cb7dcc0d72bc"
+  apiKey: "your api",
+  authDomain: "your domain",
+  projectId: "dyour project id",
+  storageBucket: "your id",
+  messagingSenderId: "replace this",
+  appId: "app id"
 };
 
 // Initialize Firebase
