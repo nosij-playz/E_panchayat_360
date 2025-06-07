@@ -1,0 +1,47 @@
+/* About.css */
+.about-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(31 120 209 / 0.2);
+}
+
+.about-container h1 {
+  color: #1f78d1;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about-container h2 {
+  color: #155a99;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.about-container ul {
+  line-height: 1.6;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.about-container a {
+  color: #1f78d1;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.about-container a:hover {
+  color: #155a99;
+  text-decoration: underline;
+}

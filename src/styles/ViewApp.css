@@ -1,0 +1,81 @@
+/* Container styling */
+.view-app-container {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.view-app-container h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.view-app-container h3 {
+  font-size: 1.4rem;
+  color: #444;
+  margin-top: 24px;
+}
+
+/* Paragraph text */
+.view-app-container p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 6px 0;
+  color: #333;
+}
+
+/* Strong text (labels) */
+.view-app-container p strong {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #000;
+}
+
+/* Button group styling */
+.view-app-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+
+/* Buttons */
+.view-app-buttons button {
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.view-app-buttons button.accept {
+  background-color: green;
+}
+
+.view-app-buttons button.accept:hover {
+  background-color: #0c7d0c;
+}
+
+.view-app-buttons button.reject {
+  background-color: red;
+}
+
+.view-app-buttons button.reject:hover {
+  background-color: #b10000;
+}
+
+.view-app-buttons button.back {
+  background-color: #666;
+}
+
+.view-app-buttons button.back:hover {
+  background-color: #444;
+}

@@ -1,0 +1,129 @@
+.apply-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.apply-container h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #1f78d1;
+}
+
+.apply-container p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.apply-container h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-bottom: 2px solid #1f78d1;
+  padding-bottom: 6px;
+  color: #1f78d1;
+}
+
+.apply-container input,
+.apply-container select,
+.apply-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0 16px 0;
+  border-radius: 6px;
+  border: 1.5px solid #bbb;
+  font-size: 16px;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.apply-container input[readonly] {
+  background-color: #f0f0f0;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.apply-container input:focus,
+.apply-container select:focus,
+.apply-container textarea:focus {
+  border-color: #1f78d1;
+  outline: none;
+}
+
+.apply-container textarea {
+  resize: vertical;
+  min-height: 80px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.apply-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 16px;
+  gap: 15px;
+}
+
+.apply-split > * {
+  flex: 1;
+}
+
+.apply-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.apply-actions button {
+  flex: 1;
+  background-color: #1f78d1;
+  color: #fff;
+  border: none;
+  padding: 14px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.apply-actions button:hover {
+  background-color: #155a99;
+}
+
+.apply-danger {
+  background-color: #e74c3c !important;
+}
+
+.apply-danger:hover {
+  background-color: #b33127 !important;
+}
+
+.apply-back-button {
+  background-color: #888;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.apply-back-button:hover {
+  background-color: #555;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .apply-row {
+    flex-direction: column;
+  }
+}

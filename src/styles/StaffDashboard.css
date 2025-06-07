@@ -1,0 +1,41 @@
+.staff-dashboard {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.staff-dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.staff-dashboard p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.dashboard-section {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.logout-button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e74c3c;
+}

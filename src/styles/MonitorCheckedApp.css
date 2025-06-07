@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+}
+
+/* Main Content */
+.monitor-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.monitor-box {
+  width: 700px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.monitor-box h2 {
+  margin-bottom: 20px;
+  color: #004d40;
+}
+
+/* Application Cards */
+.application-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #f1f8e9;
+}
+
+.application-card p {
+  margin: 6px 0;
+}
+
+/* Action Buttons */
+.status-button {
+  padding: 6px 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.status-button.confirm {
+  background-color: #4caf50;
+}
+
+.status-button.confirm:hover {
+  background-color: #388e3c;
+}
+
+.status-button.recheck {
+  background-color: #e53935;
+}
+
+.status-button.recheck:hover {
+  background-color: #b71c1c;
+}
